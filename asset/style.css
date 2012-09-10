@@ -1,0 +1,33 @@
+
+body{ margin: 0 !important; padding: 0 !important;}
+.bar{
+	height:40px;
+}
+#wpbar .intbar{
+	padding: 5px 10px 10px 10px;
+	position: relative;
+}
+#wpbar.bottom .intbar{
+	padding: 10px 10px 5px 10px;
+	position: relative;
+}
+.url {
+	height:93%;
+	width:100%;
+	z-index:10;
+	-webkit-box-sizing: border-box;
+}
+
+#wpbar .intbar a.share{
+	position: absolute;
+	top:6px;
+	right: 100px;
+	display: block;
+}
+
+#wpbar .intbar a.close{
+	position: absolute;
+	top:6px;
+	right: 10px;
+	display: block;
+}
